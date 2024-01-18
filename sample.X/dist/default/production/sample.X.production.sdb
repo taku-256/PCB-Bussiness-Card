@@ -1,0 +1,323 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26Q84 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"68 C:\Users\takum\MPLABXProjects\sample.X\main.c
+[v _port1_zero port1_zero `(i  1 e 2 0 ]
+"81
+[v _port1_one port1_one `(i  1 e 2 0 ]
+"98
+[v _port2_zero port2_zero `(i  1 e 2 0 ]
+"111
+[v _port2_one port2_one `(i  1 e 2 0 ]
+"132
+[v _port1_send3byte port1_send3byte `(i  1 e 2 0 ]
+"161
+[v _port2_send3byte port2_send3byte `(i  1 e 2 0 ]
+"190
+[v _Red Red `(i  1 e 2 0 ]
+"239
+[v _Blue Blue `(i  1 e 2 0 ]
+"288
+[v _Gaming Gaming `(v  1 e 1 0 ]
+"444
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\takum\MPLABXProjects\sample.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\takum\MPLABXProjects\sample.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1339 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f26q84.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1405
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1467
+[v _PMD2 PMD2 `VEuc  1 e 1 @98 ]
+"1474
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"1514
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1536
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"1565
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1598
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S90 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1615
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _LATCbits LATCbits `VES99  1 e 1 @1216 ]
+"1621
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1660
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+[s S162 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1677
+[u S171 . 1 `S162 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES171  1 e 1 @1222 ]
+"1678
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1722
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"1740
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1784
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S141 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1801
+[u S150 . 1 `S141 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES150  1 e 1 @1224 ]
+"1802
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+"1846
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+[s S113 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"1884
+[u S122 . 1 `S113 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES122  1 e 1 @1230 ]
+"5336
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5476
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5516
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5574
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5776
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"10552
+[v _PLLR PLLR `VEb  1 e 0 @1424 ]
+"58425
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"58487
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"58549
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"58611
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"58673
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"58921
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"58983
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"59045
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"59107
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"59169
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"59417
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"59479
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"59541
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"59603
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"59665
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"59913
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"59934
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+[s S78 bits 1 `uc 1 b1 1 0 :1:0 
+`uc 1 b2 1 0 :1:1 
+`uc 1 b3 1 0 :1:2 
+`uc 1 b4 1 0 :1:3 
+`uc 1 b5 1 0 :1:4 
+`uc 1 b6 1 0 :1:5 
+`uc 1 b7 1 0 :1:6 
+`uc 1 b8 1 0 :1:7 
+]
+"62 C:\Users\takum\MPLABXProjects\sample.X\main.c
+[u S87 . 1 `uc 1 chr 1 0 `S78 1 b 1 0 ]
+[v _r r `S87  1 e 1 0 ]
+[v _g g `S87  1 e 1 0 ]
+[v _b b `S87  1 e 1 0 ]
+"66
+[v _nanntoka nanntoka `i  1 e 2 0 ]
+"128
+[v _port1_send1bit port1_send1bit `[2]*.37(i  1 e 4 0 ]
+"130
+[v _port2_send1bit port2_send1bit `[2]*.37(i  1 e 4 0 ]
+"444
+[v _main main `(v  1 e 1 0 ]
+{
+"476
+} 0
+"50 C:\Users\takum\MPLABXProjects\sample.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"75
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 C:\Users\takum\MPLABXProjects\sample.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"57 C:\Users\takum\MPLABXProjects\sample.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"190 C:\Users\takum\MPLABXProjects\sample.X\main.c
+[v _Red Red `(i  1 e 2 0 ]
+{
+"225
+[v Red@i_283 i `i  1 a 2 15 ]
+"216
+[v Red@i_282 i `i  1 a 2 13 ]
+"203
+[v Red@i_280 i `i  1 a 2 11 ]
+"194
+[v Red@i i `i  1 a 2 9 ]
+"237
+} 0
+"288
+[v _Gaming Gaming `(v  1 e 1 0 ]
+{
+"431
+[v Gaming@i_303 i `i  1 a 2 35 ]
+"421
+[v Gaming@i_302 i `i  1 a 2 33 ]
+"409
+[v Gaming@i_301 i `i  1 a 2 31 ]
+"399
+[v Gaming@i_300 i `i  1 a 2 29 ]
+"387
+[v Gaming@i_299 i `i  1 a 2 27 ]
+"377
+[v Gaming@i_298 i `i  1 a 2 25 ]
+"365
+[v Gaming@i_297 i `i  1 a 2 23 ]
+"355
+[v Gaming@i_296 i `i  1 a 2 21 ]
+"343
+[v Gaming@i_295 i `i  1 a 2 19 ]
+"333
+[v Gaming@i_294 i `i  1 a 2 17 ]
+"321
+[v Gaming@i_293 i `i  1 a 2 15 ]
+"311
+[v Gaming@i_292 i `i  1 a 2 13 ]
+"299
+[v Gaming@i_291 i `i  1 a 2 11 ]
+"289
+[v Gaming@i i `i  1 a 2 9 ]
+"442
+} 0
+"239
+[v _Blue Blue `(i  1 e 2 0 ]
+{
+"274
+[v Blue@i_288 i `i  1 a 2 15 ]
+"265
+[v Blue@i_287 i `i  1 a 2 13 ]
+"252
+[v Blue@i_286 i `i  1 a 2 11 ]
+"243
+[v Blue@i i `i  1 a 2 9 ]
+"286
+} 0
+"161
+[v _port2_send3byte port2_send3byte `(i  1 e 2 0 ]
+{
+[v port2_send3byte@R R `i  1 p 2 0 ]
+[v port2_send3byte@G G `i  1 p 2 2 ]
+[v port2_send3byte@B B `i  1 p 2 4 ]
+"188
+} 0
+"111
+[v _port2_one port2_one `(i  1 e 2 0 ]
+{
+"126
+} 0
+"98
+[v _port2_zero port2_zero `(i  1 e 2 0 ]
+{
+"109
+} 0
+"132
+[v _port1_send3byte port1_send3byte `(i  1 e 2 0 ]
+{
+[v port1_send3byte@R R `i  1 p 2 0 ]
+[v port1_send3byte@G G `i  1 p 2 2 ]
+[v port1_send3byte@B B `i  1 p 2 4 ]
+"159
+} 0
+"81
+[v _port1_one port1_one `(i  1 e 2 0 ]
+{
+"96
+} 0
+"68
+[v _port1_zero port1_zero `(i  1 e 2 0 ]
+{
+"79
+} 0
