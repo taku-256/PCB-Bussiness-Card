@@ -14,3 +14,11 @@
 | LED1,2 | [WS2812B](https://akizukidenshi.com/catalog/g/g107915/) |
 | S1,2 | [トグルスイッチ](https://akizukidenshi.com/catalog/g/g100300/) |
 | S3 | [タクトスイッチ](https://akizukidenshi.com/catalog/g/g103648/) |
+| J1 | [Type-Cコネクタ](https://akizukidenshi.com/catalog/g/g116895/) |
+| JP1,2 | [ピンソケット 1×42](https://akizukidenshi.com/catalog/g/g105779/) |
+| JP3,4 | [NHコネクタ 3P L字](https://akizukidenshi.com/catalog/g/g114418/) |
+| PICKIT | [L字ピンヘッダ 1×10](https://akizukidenshi.com/catalog/g/g106362/) |
+| PS1 | []() |
+| Q1 | []() |
+| U$1 | []() |
+| U$2 | []() |
