@@ -1,7 +1,7 @@
 # Parts List
 
 | Part | Value or name(URL : 秋月電商/千石電商)|
-|:----|:----:|
+|:----|----:|
 | C1,2 | [100μF](https://akizukidenshi.com/catalog/g/g117877/) |
 | C3 | [0.1μF](https://akizukidenshi.com/catalog/g/g100090/) |
 | C4,5 | [33pF](https://akizukidenshi.com/catalog/g/g105109/) |
@@ -18,7 +18,7 @@
 | JP1,2 | [ピンソケット 1×42](https://akizukidenshi.com/catalog/g/g105779/) |
 | JP3,4 | [NHコネクタ 3P L字](https://akizukidenshi.com/catalog/g/g114418/) |
 | PICKIT | [L字ピンヘッダ 1×10](https://akizukidenshi.com/catalog/g/g106362/) |
-| PS1 | []() |
-| Q1 | []() |
-| U$1 | []() |
-| U$2 | []() |
+| Q1 | [10MHz](https://akizukidenshi.com/catalog/g/g108668/) |
+| PS1 | [OKL-T_6-W12N-C](https://akizukidenshi.com/catalog/g/g106187/) |
+| U$1 | [VHコネクタ 2P](https://akizukidenshi.com/catalog/g/g112815/) |
+| U$2 | [PIC18F26Q84](https://akizukidenshi.com/catalog/g/g116448/) |
